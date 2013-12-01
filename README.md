@@ -8,14 +8,6 @@ docker.io
 
 Node.JS wrapper for low-level Docker.io HTTP interface
 
-## Changes
-### 0.9.2
-    - Streams! APIs that have a streaming response, docker.io returns a Stream object now!
-    - Now has support for ALL API  endpoints
-    - Attach endpoint now works again
-    - Known issues: attach still needs to be updated for the new API
-    - TODO: next version will support websockets for a better attach API expearence
-
 ## Usage
 
 ### Using unix sockets (most secure)
@@ -62,6 +54,19 @@ docker.containers.list(options /* optional*/, function(err, res) {
 PULL REQUESTS ARE WELCOME!
 
 Concerned that your PR would change too much? File a ticket, I am willing to hear arguments for change :)
+
+## Changes
+### 0.9.3
+    - Uses docker-modem now for a better shared codebase with the community!
+    - Known issues: attach still needs to be updated for the new API
+    - TODO: next major version will support websockets for a better attach API expearence
+
+### 0.9.2
+    - Streams! APIs that have a streaming response, docker.io returns a Stream object now!
+    - Now has support for ALL API  endpoints
+    - Attach endpoint now works again
+    - Known issues: attach still needs to be updated for the new API
+
 
 ## License
 
