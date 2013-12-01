@@ -4,6 +4,28 @@ var docker = require('./lib')({
 var expect = require('chai').expect;
 var someContainerID = '';
 
+// var WebSocket = require('ws');
+// var ws = new WebSocket('ws+unix:///var/run/docker.sock:/containers/495c468be037/attach/ws');
+// //:4243/containers/495c468be037/attach
+// ws.on('open', function() {
+//     console.log('opened');
+// });
+// ws.on('connected', function() {
+//     console.log('connected');
+// });
+// //ws.send('something');
+// ws.on('message', function(data, flags) {
+//   console.log(data);
+//     // flags.binary will be set if a binary data is received
+//     // flags.masked will be set if the data was masked
+// });
+// ws.on('error', function(err) {
+//     console.log(err);
+// });
+// ws.on('disconnect', function() {
+//     console.log('disconnected');
+// });
+
 describe("docker.io", function() {
     describe("#general", function() {
 
