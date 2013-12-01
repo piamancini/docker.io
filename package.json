@@ -20,10 +20,8 @@
   "license": "Apache 2",
   "readmeFilename": "README.md",
   "dependencies": {
-    "querystring": "*",
-    "follow-redirects": "*",
+    "docker-modem": "*",
     "flat-validator": "git://github.com/appersonlabs/flat-validator.git",
-    "event-stream": "3.0.16",
     "node-v8-clone": "~0.4.5"
   },
   "devDependencies": {
