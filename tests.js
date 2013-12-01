@@ -4,7 +4,6 @@ var docker = require('./lib')({
 var expect = require('chai').expect;
 var someContainerID = '';
 
-
 describe("docker.io", function() {
     describe("#general", function() {
 
@@ -82,14 +81,14 @@ describe("docker.io", function() {
 
       it("should attach to a container", function(done) {
         this.timeout(50000);
-        
+
         var called = false;
         function handler(err, res) {
           if(!called) {
             called = true;
             expect(err).to.be.null;
 
-            expect(res).to.have.string('Hello');
+            expect(res.defaultEncoding).to.be.object;
 
             done();
           }

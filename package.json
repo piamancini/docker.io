@@ -1,6 +1,6 @@
 {
   "name": "docker.io",
-  "version": "0.7.1",
+  "version": "0.9.0",
   "description": "wrapper for the docker.io REST interface",
   "main": "./lib",
   "scripts": {
@@ -23,7 +23,8 @@
     "querystring": "*",
     "follow-redirects": "*",
     "flat-validator": "git://github.com/appersonlabs/flat-validator.git",
-    "event-stream": "3.0.16"
+    "event-stream": "3.0.16",
+    "node-v8-clone": "~0.4.5"
   },
   "devDependencies": {
     "chai": "~1.8.0",

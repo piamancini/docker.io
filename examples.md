@@ -160,7 +160,7 @@ docker.containers.restart('263tbr762t37rtbd', handler);
 
 ```javascript
 
-// This gets fired on every line returned by the container for stderr, stdin, & stdout. It gets called once for logs
+// This returns a stream as the response object
 function handler(err, res) {
     if (err) throw err;
     console.log("data returned from Docker as JS object: ", res);

@@ -8,6 +8,12 @@ docker.io
 
 Node.JS wrapper for low-level Docker.io HTTP interface
 
+## Changes
+### 0.9
+    - Streams! APIs that have a streaming response, docker.io returns a Stream object now!
+    - Now has support for ALL API  endpoints
+    - TODO: next version will support websockets for a better attach API expearence
+
 ## Usage
 
 ### Using unix sockets (most secure)
