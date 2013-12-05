@@ -75,10 +75,12 @@ PULL REQUESTS ARE WELCOME!
 Concerned that your PR would change too much? File a ticket, I am willing to hear arguments for change :)
 
 ## Changes
+### 0.9.7
+    - A MAJOR issue was fixed where the wrong endpoints were being called. If you were using a 0.9.x version of docker.io already, you should upgrade ASAP!
+
 ### 0.9.3
     - Uses docker-modem now for a better shared codebase with the community!
     - Known issues: attach still needs to be updated for the new API
-    - TODO: next major version will support websockets for a better attach API expearence
 
 ### 0.9.2
     - Streams! APIs that have a streaming response, docker.io returns a Stream object now!
