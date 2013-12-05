@@ -49,6 +49,26 @@ docker.containers.list(options /* optional*/, function(err, res) {
 
 ```
 
+### API calls (w/streams)
+
+```javascript
+//tty:true
+docker.containers.attach('hi74y2i34yi23', {stream: true, stdout: true, stderr: true, tty: true}, function(err, stream) {
+  stream.pipe(process.stdout);
+});
+
+//tty:false
+docker.containers.attach('hi74y2i34yi23', ({stream: true, stdout: true, stderr: true, tty: false}, function(err, stream) {
+  //http://docs.docker.io/en/latest/api/docker_remote_api_v1.7/#post--containers-(id)-attach
+  //dockerode may demultiplex the streams for you :)
+  container.modem.demuxStream(stream, process.stdout, process.stderr);
+});
+
+docker.image.create({fromImage: 'ubuntu'}, function(err, stream) {
+  stream.pipe(process.stdout);
+});
+```
+
 ## Contributing
 
 PULL REQUESTS ARE WELCOME!
