@@ -1,6 +1,6 @@
 {
   "name": "docker.io",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "wrapper for the docker.io REST interface",
   "main": "./lib",
   "scripts": {

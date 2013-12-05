@@ -60,8 +60,7 @@ docker.containers.attach('hi74y2i34yi23', {stream: true, stdout: true, stderr: t
 //tty:false
 docker.containers.attach('hi74y2i34yi23', ({stream: true, stdout: true, stderr: true, tty: false}, function(err, stream) {
   //http://docs.docker.io/en/latest/api/docker_remote_api_v1.7/#post--containers-(id)-attach
-  //dockerode may demultiplex the streams for you :)
-  container.modem.demuxStream(stream, process.stdout, process.stderr);
+  docker.demuxStream(stream, process.stdout, process.stderr);
 });
 
 docker.image.create({fromImage: 'ubuntu'}, function(err, stream) {
