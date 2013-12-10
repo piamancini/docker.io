@@ -75,6 +75,9 @@ PULL REQUESTS ARE WELCOME!
 Concerned that your PR would change too much? File a ticket, I am willing to hear arguments for change :)
 
 ## Changes
+### 0.9.8
+    - Fixed a typo that caused an error when using the module.
+
 ### 0.9.7
     - A MAJOR issue was fixed where the wrong endpoints were being called. If you were using a 0.9.x version of docker.io already, you should upgrade ASAP!
 
