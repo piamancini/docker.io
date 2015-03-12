@@ -81,6 +81,36 @@ describe("docker.io", function() {
         docker.containers.start(someContainerID, handler);
       });
     });
+    
+    describe("#pause", function() {
+
+      it("should pause a container", function(done) {
+        this.timeout(5000000);
+
+        function handler(err, res) {
+          expect(err).to.be.null;
+
+          done();
+        }
+
+        docker.containers.pause(someContainerID, handler);
+      });
+    });
+    
+    describe("#unpause", function() {
+
+      it("should unpause a container", function(done) {
+        this.timeout(5000000);
+
+        function handler(err, res) {
+          expect(err).to.be.null;
+
+          done();
+        }
+
+        docker.containers.unpause(someContainerID, handler);
+      });
+    });
 
     describe("#list", function() {
 
