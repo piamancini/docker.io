@@ -2,9 +2,12 @@ docker.io
 =========
 [![Build Status](https://7.hidemyass.com/ip-1/encoded/Oi8vY2kuYXBwZXJzb25sYWJzLmNvbS9pbWFnZXMvYmFkZ2VzL2J1aWxkX3Bhc3NpbmcucG5n)](http://ci.appersonlabs.com/appersonlabs/docker.io/)
 [![Dep Status](https://david-dm.org/appersonlabs/docker.io.png)](https://david-dm.org/appersonlabs/docker.io)
-[![devDependency Status](https://david-dm.org/appersonlabs/docker.io/dev-status.png)](https://david-dm.org/appersonlabs/docker.io#info=devDependencies)
+[![devDependency Status](https://david-dm.org/appersonlabs/docker.io/dev-status.png)](https://david-dm.org/appersonlabs/docker.io#info=devDependencies) [![OpenCollective](https://opencollective.com/dockerio/backers/badge.svg)](#backers) 
+[![OpenCollective](https://opencollective.com/dockerio/sponsors/badge.svg)](#sponsors)
+
 
 [![NPM](https://nodei.co/npm/docker.io.png?downloads=true&stars=true)](https://nodei.co/npm/docker.io/)
+
 
 Node.JS wrapper for low-level Docker.io HTTP interface
 
@@ -91,6 +94,75 @@ Concerned that your PR would change too much? File a ticket, I am willing to hea
     - Attach endpoint now works again
     - Known issues: attach still needs to be updated for the new API
 
+## Backers
+
+Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/dockerio#backer)]
+
+<a href="https://opencollective.com/dockerio/backer/0/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/0/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/1/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/1/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/2/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/2/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/3/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/3/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/4/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/4/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/5/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/5/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/6/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/6/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/7/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/7/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/8/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/8/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/9/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/9/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/10/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/10/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/11/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/11/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/12/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/12/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/13/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/13/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/14/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/14/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/15/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/15/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/16/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/16/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/17/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/17/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/18/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/18/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/19/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/19/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/20/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/20/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/21/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/21/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/22/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/22/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/23/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/23/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/24/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/24/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/25/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/25/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/26/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/26/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/27/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/27/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/28/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/28/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/backer/29/website" target="_blank"><img src="https://opencollective.com/dockerio/backer/29/avatar.svg"></a>
+
+## Sponsors
+
+Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/dockerio#sponsor)]
+
+<a href="https://opencollective.com/dockerio/sponsor/0/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/1/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/2/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/3/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/4/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/5/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/6/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/7/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/8/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/9/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/9/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/10/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/10/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/11/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/11/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/12/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/12/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/13/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/13/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/14/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/14/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/15/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/15/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/16/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/16/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/17/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/17/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/18/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/18/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/19/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/19/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/20/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/20/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/21/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/21/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/22/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/22/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/23/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/23/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/24/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/24/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/25/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/25/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/26/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/26/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/27/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/27/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/28/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/28/avatar.svg"></a>
+<a href="https://opencollective.com/dockerio/sponsor/29/website" target="_blank"><img src="https://opencollective.com/dockerio/sponsor/29/avatar.svg"></a>
 
 ## License
 
